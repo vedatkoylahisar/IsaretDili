@@ -19,10 +19,10 @@ while True:
     
     cv2.imshow("Camera", img)
 
-    # 'q' tuþuna basýldýðýnda döngüyü kýr
+    # 'q' tusuna basildiginda donguyu kir
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# Kamera ve pencereleri düzgünce kapat
+# Kamera ve pencereleri duzgunce kapat
 camera.release()
 cv2.destroyAllWindows()
